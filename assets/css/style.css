@@ -62,15 +62,15 @@ p{
     width: 100px;
     height: 40px;
     background-color: white;
-    margin: 20px;
+   
 }
 
 .center-header{
     align-self: center;
-    width: 400px;
+    min-width: 600px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    
 }
 
 .text{
@@ -78,15 +78,15 @@ p{
     display: flex;
     background-color: green;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
-
+    gap: 20px;
 }
 
 .buttons-head{
     display: flex;
    justify-content: center;
    gap: 20px;
+   padding: 20px;
 }
 
 #white{
