@@ -14,7 +14,7 @@ header{
 }
 
 
-img{
+#logo{
     max-width: 100px;
     max-height: 20px;
     background-color: white;
@@ -52,13 +52,13 @@ nav{
     background-color: red;
 }
 
-h1{
+#titolo-1{
     width: 200px;
     height: 40px;
     background-color:blueviolet;
 }
 
-p{
+#parag-1{
     width: 100px;
     height: 40px;
     background-color: white;
@@ -99,4 +99,40 @@ p{
     background-color: black;
     width: 30px;
     height: 20px;
+}
+
+.sectioncol{
+    width: 100%;
+    background-color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+#foto-1{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+#titolo-2{
+    min-width: 200px;
+    min-height: 100px;
+    background-color:blueviolet;
+}
+
+#parag-2{
+    width: 200px;
+    min-height: 200px;
+    background-color: black;
+    ;
+}
+
+.text-2{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
 }
