@@ -52,13 +52,13 @@ nav{
     background-color: red;
 }
 
-#titolo-1{
+#titolo-header{
     width: 200px;
     height: 40px;
     background-color:blueviolet;
 }
 
-#parag-1{
+#parag-header{
     width: 100px;
     height: 40px;
     background-color: white;
@@ -73,7 +73,7 @@ nav{
     
 }
 
-.text{
+.text-header{
     justify-content: space-between;
     display: flex;
     background-color: green;
@@ -104,7 +104,7 @@ nav{
 .sectioncol{
     width: 100%;
     background-color: white;
-    height: 500px;
+    min-height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -112,29 +112,33 @@ nav{
     gap: 60px;
 }
 
-#foto-1{
-    order: 1;
+.foto{
+    
     width: 300px;
     height: 300px;
     background-color: red;
 }
 
-#titolo-2{
+.titolo{
     min-width: 200px;
     min-height: 100px;
     background-color:blueviolet;
 }
 
-#parag-2{
+.parag{
     width: 200px;
     min-height: 200px;
     background-color: black;
     ;
 }
 
-.text-2{
-    order: 2;
+.text{
+    
     flex-direction: column;
     display: flex;
     align-items: center;
+}
+
+#sect-2{
+    flex-direction: row-reverse;
 }
