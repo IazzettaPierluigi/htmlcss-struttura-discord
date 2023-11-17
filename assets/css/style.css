@@ -10,7 +10,7 @@ header{
     width: 100%;
     min-height: 300px;
     display: flex;
-  
+    flex-direction: column;
 }
 
 
@@ -46,8 +46,57 @@ nav{
 
 
 
-button{
+#button-nav{
     width: 20px;
     height: 20px;
     background-color: red;
+}
+
+h1{
+    width: 200px;
+    height: 40px;
+    background-color:blueviolet;
+}
+
+p{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    margin: 20px;
+}
+
+.center-header{
+    align-self: center;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.text{
+    justify-content: space-between;
+    display: flex;
+    background-color: green;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.buttons-head{
+    display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+#white{
+    background-color: white;
+    width: 30px;
+    height: 20px;
+}
+
+#black{
+    background-color: black;
+    width: 30px;
+    height: 20px;
 }
